@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobHub</title>
+    <link rel="icon" href="Assets/JobHub.png">
+    <link rel="stylesheet" href="jobhub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/90386a056d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+</head>
+<body>
+    <script src="jobhub.js"></script>
+    <div class="scrollup">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Job<span class="Plogo">Hub</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Charles  Zoilo</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="#contact"><i class="fa-solid fa-briefcase"></i>  Hire Me</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="Assets/Profile.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Charles and I'm a <span>Weeb Developer</span></div>
+                    <p>As a seasoned weeb developer, multimedia enthusiast, and a designer, I bring a diverse skill set and a passion for creative storytelling to every project. With a keen eye for design and a deep understanding of web technologies, I craft engaging and intuitive user experiences. My expertise in multimedia direction ensures cohesive and compelling visual narratives, while my proficiency in video editing allows me to transform raw footage into polished, impactful content. This unique combination of technical and creative skills enables me to deliver high-quality digital solutions that captivate and inspire audiences.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Graphic Designs</span><br>Design Layouts</li>
+                            <li><span>Editing</span><br>Videos and Photos</li>
+                            <li><span>Presentation Expertise</span><br>Neumorphism<br>Glassmorphism</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - current</span><br>JAVA TSWP at TESDA<br>Soft. Dev. 1 at Cebu Technological University Danao Campus</li>
+                            <li><span>2023 - 2024</span><br>Creative Web Develpoment at TESDA<br>Multimedia Director at Engineering Society - Cebu Technological University Danao Campus<br>Data Structures and Algorithms at Cebu Technological University Danao Campus</li>
+                            <li><span>2022 - 2023</span><br>Object Oriented Programming at Cebu Technological University Danao Campus<br>Programming Logic and Design at Cebu Technological University Danao Campus</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - current</span><br>Studies Computer Engineering at Cebu Technological University Danao Campus</li>
+                            <li><span>2023 - 2024</span><br>Completed Creative Web Design Training Program at Technical Education and Skills Development Authority</li>
+                            <li><span>2018 - 2022</span><br>Major in Science, Technology, Engineering, and Mathematics from Lilo-an National High School </li>
+                            <li><span>2016 - 2018</span><br>Major in Electrical Installation and Maintenance from Lilo-an National High School</li>
+                            <li><span>2010 - 2016</span><br>Attended Primary Education at Tayud Elementary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skillbar">
+                <h2>Skill Bar</h2>
+                <p>Coding</p>
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                
+
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+
+                <p>Editing</p>
+                <div class="bars">
+                    <div class="info">
+                        <span>Video</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="line vid"></div>
+                </div>
+
+                <div class="bars">
+                    <div class="info">
+                        <span>Photo</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="line pic"></div>
+                </div>
+
+                <div class="bars">
+                    <div class="info">
+                        <span>Powerpoint</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="line ppt"></div>
+                </div>
+
+                <div class="bars">
+                    <div class="info">
+                        <span>Public Material</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="line pubmat"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Crafting visually appealing websites blending design and development for brand enhancement and user engagement.</p>
+                        <a href="https://www.wix.com/blog/web-design" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Graphic Design</h2>
+                        <p>Graphic design conveys messages through visuals, utilizing neumorphism and glassmorphism to enhance brand identity and engage audiences.</p>
+                        <a href="https://webflow.com/blog/what-is-graphic-design" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h2>Editing</h2>
+                        <p>Unlock your creativity with my professional video and photo editing services. We enhance colors, add dynamic effects, and transform your moments into stunning masterpieces. Bring your vision to life with expert precision.</p>
+                        <a href="https://www.mediacollege.com/video/editing/tutorial/definition.html" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-pied-piper"></i>
+                        <h2>Logo</h2>
+                        <p>Refine your brand identity with our expert logo editing services. We ensure your logo captures your brand essence and captivates your audience.</p>
+                        <a href="https://www.bigcommerce.com/glossary/what-is-a-logo-design/" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-camera"></i>
+                        <h2>Philippitiks</h2>
+                        <p>Capture moments with our professional photography and videography services. From weddings to corporate events, our skilled team tells your story with clarity and passion.</p>
+                        <a href="https://www.facebook.com/profile.php?id=100094006534700" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-palette"></i>
+                        <h2>Printing</h2>
+                        <p>Enhance your brand with our diverse printing services. From banners to custom merchandise, we bring your vision to life with quality and attention to detail, delivering memorable products that leave a lasting impression.</p>
+                        <a href="https://www.facebook.com/arigaprints" target="_blank">Learn more</a>
+                    </div>  
+                </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="max-width">
+            <h2 class="title">My Works</h2>
+                <div class="work-list">
+
+                    <div class="work">
+                        <img src="Assets/work1.png">
+                        <div class="layer">
+                            <h3>Music Player</h3>
+                            <p>WeTunes, modeled after Spotify, offers a responsive music player experience, though screen compatibility may vary.</p>
+                            <a href="https://wetunes.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Assets/work2.png">
+                        <div class="layer">
+                            <h3>Public Materials</h3>
+                            <p>Crafting impactful public materials, blending design expertise with strategic messaging for engaging communication and lasting impressions.</p>
+                            <a href="https://www.facebook.com/ES.CTU.DC/posts/pfbid04w4pYcvhtwBPCtpuhWLNNf3SrQyzboNy85jFaFrxjBhXRDjCg1iCPjbWcqFAp4yol" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Assets/work3.png">
+                        <div class="layer">
+                            <h3>Behind The Scenes</h3>
+                            <p>Unlock the scenes: delve into our behind-the-scenes, revealing the magic and creativity shaping our projects.</p>
+                            <a href="https://www.facebook.com/ES.CTU.DC/videos/7516893051725304" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Assets/work4.png">
+                        <div class="layer">
+                            <h3>Team Logos</h3>
+                            <p>Explore our team logos: uniquely crafted to represent unity, identity, and pride, defining our collective spirit.</p>
+                            <a href="https://www.canva.com/design/DAFqklg1ecc/_FLp2FqlXrxVInux6Ucr_w/edit" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Assets/work5.png">
+                        <div class="layer">
+                            <h3>Philippitiks</h3>
+                            <p>Dive into 'pitiks': our captivating pictures tell stories, evoke emotions, and capture memorable moments with artistic flair.</p>
+                            <a href="https://www.facebook.com/profile.php?id=100094006534700" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Assets/work6.png">
+                        <div class="layer">
+                            <h3>Clothing</h3>
+                            <p>Elevate your style: our custom t-shirt printing transforms ideas into wearable art, reflecting your unique identity with flair.</p>
+                            <a href="https://www.canva.com/design/DAFqkgX5BnU/sEBCtlV65Qi06I4WeL6ABA/edit" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="https://github.com/dashboard" target="_blank" class="button">See More</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+                <div class="row">
+                    <div class="contact-left">
+                        <p><i class="fa-solid fa-paper-plane"></i> charleszoiyana@gmail.com</p>
+                        <p><i class="fa-solid fa-mobile"></i> 09770882204</p>
+                        <p><i class="fa-solid fa-phone"></i> 424 0388</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/charleszoilo.yana"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/xoienssui/"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        <a href="Assets/SAMPLECV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                        
+                    <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="button btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                    </div>
+                </div>
+                
+        </div>
+    </section>
+    <div class="copyright">
+        <p>© JobHub by Charles Zoi | All rights reserved | Cebu Technological University Danao Campus Final Requirement for Software Design</p>
+    </div>
+</body>
+</html>
